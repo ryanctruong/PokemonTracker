@@ -6,6 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <RadioButton
+        android:id="@+id/radioUnk"
+        android:layout_width="58dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="28dp"
+        android:text="Unk"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioMale"
+        android:layout_width="64dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="276dp"
+        android:text="Male"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radioFem"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pokeGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="276dp"
+        android:text="Species"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_speciesCat"
+        android:layout_width="184dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/speciesCat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/speciesCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="220dp"
+        android:text="Species"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_pokeName"
+        android:layout_width="184dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pokeName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pokeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="168dp"
+        android:text="Name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/AppName"
         android:layout_width="wrap_content"
@@ -53,5 +135,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/natNumber"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioFem"
+        android:layout_width="76dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="276dp"
+        android:text="Female"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/pokeGender"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
