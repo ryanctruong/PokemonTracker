@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/et_pokeHeight5"
+        android:id="@+id/et_pokeDefence"
         android:layout_width="184dp"
         android:layout_height="23dp"
         android:layout_marginTop="660dp"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_pokeHeight4"
+        android:id="@+id/et_pokeAttack"
         android:layout_width="184dp"
         android:layout_height="23dp"
         android:layout_marginTop="604dp"
@@ -65,7 +65,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_pokeHeight3"
+        android:id="@+id/et_pokeHP"
         android:layout_width="184dp"
         android:layout_height="23dp"
         android:layout_marginTop="548dp"
@@ -113,7 +113,7 @@
 
 
     <EditText
-        android:id="@+id/et_pokeHeight2"
+        android:id="@+id/et_pokeWeight"
         android:layout_width="184dp"
         android:layout_height="23dp"
         android:layout_marginTop="376dp"
